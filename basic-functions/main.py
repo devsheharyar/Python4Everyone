@@ -103,6 +103,35 @@
 #------------------------------------------------------------
 # 13. Assignment (Lowest Priority)
 # • =, +=, -=, *=, etc. — Assignment operators
+#---------------------------------------What are data types in Python------------------------
+#The type of the variable is called the data type in the python.
+#Following are some of the data types and there usage with example given.
+#--------------------------------------------------------------------------------------------
+# Category |Type Name	       | Description & Core Purpose	| Example syntax	| Mutability
+#--------------------------------------------------------------------------------------------
+# Text	   |str	               | Unicode text characters	|   "Hello World"	| Immutable
+#--------------------------------------------------------------------------------------------
+# Numeric  |int                | Unlimited whole numbers    |    42             | Immutable                
+#          |float              | Decimals / fractional value|    3.1415         | Immutable 
+#          |complex	           |Real + imaginary numbers (j)|    v2 + 4j        | Immutable  
+# -------------------------------------------------------------------------------------------  
+#          |                   |
+# Sequence |list               |Ordered, flexible collections| [1, 2, 3]        | Mutable
+#          |tuple              |Ordered, fixed collections   | (1, 2, 3)        | Immutable
+#          |range              |Immutable series of numbers  | range(0, 10)     | Immutable
+#---------------------------------------------------------------------------------------------
+# Mapping  |dict	           | Key-value pairs	         |  {"id": 101}	    | Mutable     
+#--------------------------------------------------------------------------------------------
+# Set      |set                | Unordered unique elements   |    {"a", "b"}    | Mutable                
+#          |frozenset          | Immutable version of a set  | frozenset({1, 2})| Immutable 
+#---------------------------------------------------------------------------------------------
+# Boolean  |bool	           | Evaluates truth values	     |  True or False	 | Immutable     
+#--------------------------------------------------------------------------------------------
+# Special  |NoneType	       | Signifies absence of value / null|  None	     |Immutable    
+#-------------------------------------------------------------------------------------------- 
+
+# .
+
 
 
 x= 3 
