@@ -172,9 +172,13 @@
 #if:
 #elif:
 #else:
-#  .
+#------------------------------------------------------------
+# 8. Comparisons & Membership that use with conditional statements
+# • <, <=, >, >= — Relational comparisons
+# • ==, != — Equality tests
+#------------------------------------------------------------
 
-
+1.30
 
 
 # float_num = float("3.14")  
