@@ -177,10 +177,6 @@
 # • <, <=, >, >= — Relational comparisons
 # • ==, != — Equality tests
 #------------------------------------------------------------
-
-1.30
-
-
 # float_num = float("3.14")  
 # int_num = int(5.99)         
 # print(int_num)
