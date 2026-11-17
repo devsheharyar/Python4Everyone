@@ -202,3 +202,14 @@
 #     print(y)
 # else:
 #     print("Pakistan is working",y)
+p_milage=int(input('Please enter the value of the previous milage'))
+c_milage=int(input('Please enter the value of the current milage'))
+diff_milage=c_milage-p_milage
+if diff_milage>=1000:
+    print('You have above',diff_milage,'mile of the set mile range change it now')
+if diff_milage<=1000:
+    new_milage=1000-c_milage
+    print('You can run more',diff_milage,'miles till next oil change that is')
+elif z<=1000:
+    print('you have to change the oil at the',m,'Milage')
+    
