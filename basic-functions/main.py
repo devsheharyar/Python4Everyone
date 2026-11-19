@@ -206,6 +206,8 @@ if diff_milage>=1000:
 if diff_milage<=1000:
     new_milage=1000-c_milage
     print('You can run more',diff_milage,'miles till next oil change that is')
-elif z<=1000:
+elif diff_milage<=1000:
     print('you have to change the oil at the',m,'Milage')
+    print('your time here is complete')
+#The indendation is necessary for the loop or decision value
     
