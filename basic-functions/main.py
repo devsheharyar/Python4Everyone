@@ -209,5 +209,6 @@ if diff_milage<=1000:
 elif diff_milage<=1000:
     print('you have to change the oil at the',m,'Milage')
     print('your time here is complete')
+print('Pakistan')
 #The indendation is necessary for the loop or decision value
     
